@@ -1,4 +1,14 @@
 # Sigma-Wedge-Hackathon
+We aim at building a model that provides insights on when to buy the Apple stock, such that we obtain a maximum portfolio value.
+The portfolio value depicts the total value of the stocks or assets which we own, thus the value increases when we transition from FLAT state to BULL state and decreases when we move from FLAT state to BEAR state.
+
+STEPS:
+            1) Firstly, we extract the dataset using the moonshot framework present in quantrocket.
+            2) Then, we find the percentage of the dataset using pct_change() function.
+            3) Next, we classify the data as BULL(1), FLAT(0) and BEAR(-1).
+            4) After that, using the given conditions, we determine the portfolio value.
+            5) Then, we try to find the transition matrix and then use it to determine the probability distribution matrix.
+
 
 Output:
 
